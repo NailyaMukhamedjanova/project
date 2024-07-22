@@ -6,7 +6,7 @@ import { Slider } from '../Slider/Slider';
 import { Scrollbar, A11y } from 'swiper/modules'
 import 'swiper/css';
 import 'swiper/css/scrollbar';
-import 'swiper/css/a11y';в
+import 'swiper/css/a11y';
 import 'swiper/swiper-bundle.css';
 
 import slides from './mock.json'
@@ -25,18 +25,14 @@ function ProductCart({slide, ...props}) {
             <div className={styles['frame']} >
                 <button className={styles['frame-button']}> <img src="./icons/iconBtn.svg" alt="" /></button>
                 
-                
-                {/* <Slider slides={slides} /> */}
+    
 
-            <Swiper
-
+            <Swiper 
+                className={styles['swiper']}
                 modules={[Scrollbar, A11y]}
-
                 slidesPerView={1}
                 loop={true}
-
                 scrollbar={{ draggable: true }} >
-
                 {slides.map((slide) =>
                 (<SwiperSlide key={slide.image}  >
                     <img className={styles['frame-img']} src={slide.image} alt={slide.title} />
