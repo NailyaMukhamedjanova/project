@@ -1,0 +1,38 @@
+/* .section{
+
+  display: flex;
+  flex-direction: column;
+}
+.section-center {
+  display: flex;
+  flex-direction: row;
+   overflow: hidden;
+}
+.prev {
+  background-color: blue;
+  color: black;
+  border-radius: 50%;
+    font-size: 8px;
+}
+.next {
+  background-color: blue;
+  color: black;
+  font-size: 8px;
+
+  border-radius: 50%;
+}
+.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+.nextSlide {
+  transform: translateX(100%) !important;
+}
+.lastSlide {
+  transform: translateX(-100%) !important;
+ 
+}
+.person-img {
+  opacity: 1;
+  
+} */
